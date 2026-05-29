@@ -2,11 +2,11 @@
 
 ## 1. Purpose of this repository
 
-This repository supports anonymous peer-review evaluation of a fatigue data infrastructure and reproducibility workflow. It provides the scripts, processed data products, manuscript-supporting outputs, and selected figures needed to verify the 85-sample fatigue DBMS workflow in a double-blind review setting.
+This repository supports anonymous peer-review evaluation of a fatigue data infrastructure and reproducibility workflow. It provides the scripts, processed data products, manuscript-supporting outputs, and selected figures needed to verify the 85-sample fatigue DBMS workflow in a anonymous review setting.
 
 ## 2. Repository contents
 
-The repository includes Python scripts, processed datasets, statistical outputs, reliability outputs, ML outputs, ICME/FAIR metadata outputs, and selected figures. Reviewer-facing notes, a file manifest, and execution guidance are also included.
+The repository includes Python scripts, processed datasets, statistical outputs, reliability outputs, ML outputs, ICME/FAIR metadata outputs, a file manifest, and execution guidance are also included.
 
 ## 3. Dataset overview
 
@@ -28,7 +28,6 @@ Reviewers can validate the repository in two ways:
 - `scripts/`: workflow scripts grouped by stage
 - `data/`: input, cleaned, database, statistics, ML, and manuscript-output files
 - `figures/`: selected main and supplementary figures
-- `docs/`: workflow reference and reviewer notes
 
 ## 7. Main scripts and execution order
 
@@ -39,7 +38,6 @@ Reviewers can validate the repository in two ways:
 5. `scripts/04_microstructure_pspp/`
 6. `scripts/05_machine_learning/`
 7. `scripts/06_icme_fair_metadata/`
-8. `scripts/07_manuscript_packaging/`
 
 ## 8. Main output files
 
@@ -55,11 +53,3 @@ Representative outputs include:
 ## 9. Notes on expanded sample-level dataset
 
 The repository contains an expanded and validated 85-sample-level fatigue dataset across 17 processing routes. This representation is intended for reproducibility review, statistical characterization, reliability analysis, PSPP linkage, and route-aware validation.
-
-## 10. Anonymity statement
-
-This repository supports anonymous peer-review evaluation. No personal or institutional identifiers are included to the best of the preparation workflow, and an anonymization scan report is provided under `docs/reviewer_notes/`.
-
-## 11. Contact information
-
-For double-blind peer review, author-identifying contact information has been intentionally omitted.
