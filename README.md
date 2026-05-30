@@ -10,7 +10,7 @@ The repository includes Python scripts, processed datasets, statistical outputs,
 
 ## 3. Dataset overview
 
-The workflow contains an expanded 85-sample-level fatigue dataset across 17 processing routes. The sample-level records should be interpreted as augmented and validated sample-level records unless independently confirmed as fully experimental.
+The workflow contains an expanded 85-samples fatigue dataset across 17 processing routes. 
 
 ## 4. Workflow overview
 
