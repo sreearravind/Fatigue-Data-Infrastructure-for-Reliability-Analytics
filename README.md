@@ -32,12 +32,11 @@ Reviewers can validate the repository in two ways:
 ## 7. Main scripts and execution order
 
 1. `scripts/00_database_setup/`
-2. `scripts/01_data_preparation/`
-3. `scripts/02_statistical_analysis/`
-4. `scripts/03_reliability_analysis/`
-5. `scripts/04_microstructure_pspp/`
-6. `scripts/05_machine_learning/`
-7. `scripts/06_icme_fair_metadata/`
+2. `scripts/02_statistical_analysis/`
+3. `scripts/03_reliability_analysis/`
+4. `scripts/04_microstructure_pspp/`
+5. `scripts/05_machine_learning/`
+6. `scripts/06_icme_fair_metadata/`
 
 ## 8. Main output files
 
